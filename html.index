@@ -1,0 +1,68 @@
+<!DOCTYPE>
+<html>
+  <body>
+
+    <ul><a href="#">Binabox</a></ul>
+    
+    <ul>
+       
+       <li><a href="#">Home</a></li>
+      <ul>
+        <li><a href="#">#</a></li>
+        <li><a href="#">#</a></li>
+      </ul>
+      
+      
+      <li><a href="#">About</a></li>
+      <ul>
+        <li><a href="#">#</a></li>
+        <li><a href="#">#</a></li>
+      </ul>
+       
+      
+      <li><a href="#">Roadmap</a></li>
+      <ul>
+        <li><a href="#">#</a></li>
+        <li><a href="#">#</a></li>
+      </ul>
+       
+      
+      <li><a href="#">Collection</a></li>
+      
+      
+      <li><a href="#">Faqs</a></li>
+      <ul>
+        <li><a href="#">#</a></li>
+        <li><a href="#">#</a></li>
+      </ul>
+       
+      
+      <li><a href="#">Pages</a></li>
+      <ul>
+        <li><a href="#">#</a></li>
+        <li><a href="#">#</a></li>
+      </ul>
+         
+    </ul>
+  
+*put discord and connect links here    
+    
+   <h1>
+        WITH BINABOX EXPLORE NFT COLLECTION
+   </h1>   
+   <h4>
+        We are the best way to check the rarity of         NFT collection
+   </h4>
+   <h4> 
+        Total Item <br>
+        2200+ <br> 
+        Profiles Whitelisted <br> 
+        1000+
+   </h4>
+    
+    <a href="#">Connect walet</a> 
+    <a href="#">Whitelist now</a>
+    
+    
+  </body>
+</html>
