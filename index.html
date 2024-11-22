@@ -1,111 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <link rel="stylesheet" href="style.css"> --> <!-- uncomment styles --> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Binabox</title>
 </head>
+
 <body>
-    <div id="container" class="container">
-        <div class="profile-folder">
-          <div class="folder">
-            <div class="title">
-              Yaba Kawaii Studio
-              <span class="title-btn">
-                <span class="btn1"></span>
-                <span class="btn2"></span>
-                <span class="btn3"></span>
-              </span>
-            </div>
 
-            <div class="body">
-              <div class="profile-icon-box">
-                <p id="typeText"></p>
-                <div class="profile-icon">
-                    <img src="https://assets.codepen.io/4292193/ayakoyokoya_icon.png" /> <!-- Photo -->
-                </div>
-              </div>
+  <header class="home-page-header">
+    <nav class="top-nav">
 
-              <div class="name">
-                <p>AYAKO YOKOYA</p> <!-- Name -->
-              </div>
-              <div class="aboutme">
-                <p>Creative Developer <span>(I wanna be...)</span></p> <!-- Profession -->
-              </div>
+      <div class="binabox-logo">
+        <img src="Img/Catalog/Logo.jpg" alt=logo>
+        <a href="#">Binabox</a>
+      </div>
 
-              <div class="sns-btn-box">
-                <p>My sns accounts are...</p>
-                <a
-                  href="https://github.com/ayakoyokoya/"
-                  target="_blank"
-                  class="sns-btn"
-                >
-                  github <!-- Link to social media 1 -->
-                </a>
-                <a
-                  href="https://twitter.com/ayakoyokoya"
-                  target="_blank"
-                  class="sns-btn"
-                >
-                  twitter <!-- Link to social media 2 -->
-                </a>
-              </div>
+      <div class="nav-items">
+        <ul class="nav-list">
+          <li class="nav-item"> <a href="#">Home</a> </li>
+          <ul class="nav-list">
+            <li class="nav-item"> <a href="#">#</a> </li>
+            <li class="nav-item"> <a href="#">#</a> </li>
+          </ul>
 
-              <div class="portfolio-btn-box">
-                <p>
-                  Do you want to see error? <!-- Any text -->
-                </p>
-                <div class="portfolio">
-                  <button id="error-btn" class="error-btn">
-                    error?
-                  </button>
-                  <a
-                    href="https://ayakoyokoya.github.io/yaba-kawaii-audio-visualizer/dist/"
-                    target="_blank"
-                    class="portfolio-btn"
-                  >
-                    yes! 
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <li class="nav-item"> <a href="#">About</a> </li>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#">#</a> </li>
+            <li class="nav-item"> <a href="#">#</a> </li>
+          </ul>
+
+          <li> <a href="#">Roadmap</a> </li>
+          <ul class="nav-list">
+            <li class="nav-item"> <a href="#">#</a> </li>
+            <li class="nav-item"> <a href="#">#</a> </li>
+          </ul>
+
+          <li class="nav-item"> <a href="#">Collection</a> </li>
+
+          <li class="nav-item"> <a href="#">Faqs</a> </li>
+          <ul class="nav-list">
+            <li class="nav-item"> <a href="#">#</a> </li>
+            <li class="nav-item"> <a href="#">#</a> </li>
+          </ul>
+
+          <li class="nav-item"> <a href="#">Pages</a> </li>
+          <ul class="nav-list">
+            <li class="nav-item"> <a href="#">#</a> </li>
+            <li class="nav-item"> <a href="#">#</a> </li>
+          </ul>
+        </ul>
+      </div>
+
+      <div class="Nav-buttons">
+
+        <form class="search-form">
+          <input type="search" placeholder="Search" class="button button-search">
+        </form>
+
+        <button class="button-is-primary" type="button" onclick="alert('Logging in')">Discord
+        </button>
+
+        <button class="button" type="button" onclick="alert('Connecting')">Connect
+        </button>
+      </div>
+
+    </nav>
+  </header>
+
+  <div class="home">
+    <h1>
+      WITH <span>BINABOX</span> EXPLORE<br> NFT COLLECTION
+    </h1>
+
+    <div>
+      <p>
+        We are the best way to check the rarity
+        of NFT collection
+      </p>
+
+      <div>
+        <p>Total Item</p>
+        <h5>2240+</h5>
+      </div>
+
+      <div>
+        <p>Profiles Whitelisted</p>
+        <h5>1000+</h5>
+      </div>
+    </div>
+
+    <div>
+      <button class="button" type="button" onclick="alert('Connecting Wallet')">Connect Wallet
+      </button>
+
+      <button class="button-is-primary" type="button" onclick="alert('Added')">Whitelist now
+      </button>
+    </div>
+  </div>
+
+  <div class="catalog">
+    <p>Catalog</p>
+    <div>
+
+      <button class="button-is-primary" type="button" onclick="$">See All
+      </button>
+
+      <button class="button-is-primary" type="button" onclick="$">
+        < </button>
+
+          <button class="button" type="button" onclick="$"> >
+          </button>
+    </div>
+  </div>
+
+  <div class="products">
+
+    <div class="card">
+
+      <img src="Img/Catalog/Image-Library-NFT-Pictures-skeleton.jpg" alt="Skeleton NFT">
+      <h5>$199</h5>
+      <p>Product Name</p>
+    </div>
+
+    <div class="card">
+
+      <img src="Img/Catalog/Image-Library-NFT-Pictures-Cat.jpg" alt="Cat NFT">
+      <h5>$199</h5>
+      <p>Product Name</p>
+
+    </div>
+
+    <div class="card">
+
+      <img src="Img/Catalog/Image-Library-NFT-Pictures-scissors.jpg" alt="Scissors NFT">
+      <h5>$199</h5>
+      <p>Product Name</p>
+
+    </div>
+
+    <div class="card">
+
+      <img src="Img/Catalog/Image-Library-NFT-Pictures-card.jpg" alt="Card NFT">
+      <h5>$199</h5>
+      <p>Product Name</p>
+
+    </div>
+
+    <div class="card">
+
+      <img src="Img/Catalog/Image-Library-NFT-Pictures-Gameboy.jpg" alt="Gameboy NFT">
+      <h5>$199</h5>
+      <p>Product Name</p>
+
+    </div>
+
+  </div>
+
+  <div class="blog">
+    <h3>Our Blog</h3>
+    <div class="posts">
+
+      <div class="mask">
+        <div class="large">
+          <img src="Img/Catalog/Image-Library-NFT-Pictures-Mask.jpg" alt="img">
+
+          <p class="info">Tony Nguyen 20 Jun 2022</p>
+          <h4>Sonic Live</h4>
+          <p class="details">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet.</p>
+          <button class="readmore" type="button"> Read more > </button>
         </div>
       </div>
 
-      <template id="template">
-        <div class="error">
-          <div class="folder folder_error">
-            <div class="title">
-              Error
-              <span class="title-btn">
-                <span class="btn1"></span>
-                <span class="btn2"></span>
-                <span class="btn3"></span>
-              </span>
-            </div>
+      <div class="skeleton">
+        <div class="small">
+          <img src="Img/Catalog/Image-Library-NFT-Pictures-Skeleton-mini.jpg" alt="img">
 
-            <div class="body">
-              <div class="profile-icon-box">
-                <div class="profile-icon">
-                    <img src="https://assets.codepen.io/4292193/ayakoyokoya_icon2.png" />
-                </div>
-              </div>
-
-              <div class="name">
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <button class="ok-error-btn" onclick="window.location.reload();">OK...</button>
-              </div>
-            </div>
-          </div>
+          <p class="info">Tony Nguyen 20 Jun 2022</p>
+          <h4>Sonic Live</h4>
+          <p class="details">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet.</p>
+          <button class="readmore" type="button">Read more > </button>
         </div>
-      </template>
-      <!-- <script src="script.js"></script> --> <!-- uncomment script --> 
+      </div>
+
+      <div class="cat">
+        <div class="small">
+          <img src="Img/Catalog/Image-Library-NFT-Pictures-Cat-mini.jpg" alt="img">
+
+          <p class="info">Tony Nguyen 20 Jun 2022</p>
+          <h4>Sonic Live</h4>
+          <p class="details">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet.</p>
+          <button class="readmore" type="button">Read more > </button>
+        </div>
+      </div>
+
+      <div class="monkey">
+        <div class="small">
+          <img src="Img/Catalog/Image-Library-NFT-Pictures-Monkey-mini.jpg" alt="img">
+
+          <p class="info">Tony Nguyen 20 Jun 2022</p>
+          <h4>Sonic Live</h4>
+          <p class="details">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet.</p>
+          <button class="readmore" type="button">Read more > </button>
+        </div>
+      </div>
+
+      <div class="duck">
+        <div class="small">
+          <img src="Img/Catalog/Image-Library-NFT-Pictures-Duck-mini.jpg" alt="img">
+
+          <p class="info">Tony Nguyen 20 Jun 2022</p>
+          <h4>Sonic Live</h4>
+          <p class="details">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet.</p>
+          <button class="readmore" type="button">Read more > </button>
+        </div>
+      </div>
+
+      <div class="gameboy">
+        <div class="large">
+          <img src="Img/Catalog/Image-Library-NFT-Pictures-Gameboy.jpg" alt="img">
+
+          <p class="info">Tony Nguyen 20 Jun 2022</p>
+          <h4>Sonic Live</h4>
+          <p class="details">One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet.</p>
+          <button class="readmore" type="button">Read more > </button>
+        </div>
+      </div>
+
+      <div class="center-readmore">
+        <button class="readmore" type="button">Read more</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="about">
+    <div>
+
+      <h3>About us</h3>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat</p>
+    </div>
+
+    <div class="about-cards">
+
+      <h4>High quality</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry. </p>
+    </div>
+
+    <div class="about-cards">
+
+      <h4>Big collection</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry. </p>
+    </div>
+
+    <div class="about-cards">
+
+      <h4>Top Resourse</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry. </p>
+    </div>
+
+    <div class="about-cards">
+
+      <h4>Big community</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry. </p>
+    </div>
+
+    <div class="center-readmore">
+      <button class="readmore" type="button">Read more</button>
+    </div>
+
+    <div class="our-team">
+      <h3>Our team</h3>
+
+      <div class="team-card">
+        <img src="Img/Catalog/Image-Library-teams-portraits.png" alt="img">
+        <h4>Jason Smith</h4>
+        <p>Co-Founder</p>
+      </div>
+
+      <div class="team-card">
+        <img src="Img/Catalog/Image-Library-teams-portraits.png" alt="img">
+        <h4>Jason Smith</h4>
+        <p>Co-Founder</p>
+      </div>
+
+      <div class="team-card">
+        <img src="Img/Catalog/Image-Library-teams-portraits.png" alt="img">
+        <h4>Jason Smith</h4>
+        <p>Co-Founder</p>
+      </div>
+
+      <div class="team-card">
+        <img src="Img/Catalog/Image-Library-teams-portraits.png" alt="img">
+        <h4>Jason Smith</h4>
+        <p>Co-Founder</p>
+      </div>
+
+      <div class="team-card">
+        <img src="Img/Catalog/Image-Library-teams-portraits.png" alt="img">
+        <h4>Jason Smith</h4>
+        <p>Co-Founder</p>
+      </div>
+
+      <div class="team-card">
+        <img src="Img/Catalog/Image-Library-teams-portraits.png" alt="img">
+        <h4>Jason Smith</h4>
+        <p>Co-Founder</p>
+      </div>
+
+      <div class="team-card">
+        <img src="Img/Catalog/Image-Library-teams-portraits.png" alt="img">
+        <h4>Jason Smith</h4>
+        <p>Co-Founder</p>
+      </div>
+
+    </div>
+
+    <div class="faqs">
+
+      <h3>FAQs</h3>
+
+      <div class="big-faq-card">
+        <h4>What are the NFTs?</h4>
+        <p>Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.</p>
+      </div>
+
+      <div class="faq-card">
+        <h4>How do i get NFTs?</h4>
+      </div>
+
+      <div class="faq-card">
+        <h4>How can we buy your Nfts?</h4>
+      </div>
+
+      <div class="faq-card">
+        <h4>Who are the team behind the project?</h4>
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
+
 </html>

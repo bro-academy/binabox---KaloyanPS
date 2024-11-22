@@ -1,0 +1,290 @@
+body {
+  background-color: #0d0d15;
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f5f8fb;
+}
+
+header {
+  background-color: #0d0d15;
+  width: 1728px;
+  height: 112px;
+}
+
+.binabox-logo img{
+  background-color: #0d0d15;
+  width: 36px;
+  height: 40px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #0265dc;
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #f5f8fb;
+  border: 0px solid #0265dc;
+  width: 159px;
+  height: 48px;
+}
+
+.button-is-primary {
+  background: transparent;
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #f5f8fb;
+  border: 1px solid rgb(208, 215, 251, 17%);
+  width: 150px;
+  height: 49px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.nav-buttons::before {
+  content: "";
+  width: 6px;
+  height: 20px;
+  background: red;
+}
+
+.search-form {
+  order: -1;
+}
+
+.home {
+  text-align: center;
+}
+
+.home p {
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.home h1 {
+  font-family: "bakbak one", Aral, sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+}
+
+.home h5 {
+  font-family: "bakbak one", Aral, sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #f5f8fb;
+  text-shadow: 0px 4px 13px #ffffff66;
+}
+
+.home span {
+  color: #0265dc;
+}
+
+.binabox {
+  font-family: "bakbak one", Aral, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.card {
+  background-color: #1d1c28;
+  height: 480px;
+  width: 300.8px;
+}
+
+.card img {
+  height: 324px;
+  width: 240px;
+}
+
+.card h5 {
+  font-family: "bakbak one", Aral, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #f5f8fb;
+}
+
+.card p {
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #eff5fad1;
+}
+
+h3 {
+  text-align: center;
+  font-family: "bakbak one", Aral, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #f8f7ff;
+}
+
+.large {
+  background-color: #1d1c28;
+  width: 784px;
+  height: 900px;
+}
+
+.large img {
+  height: 640px;
+  width: 736px;
+}
+
+.info {
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #eff5fad1;
+}
+
+.large h4 {
+  font-family: "bakbak one", Aral, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #f5f8fb;
+}
+
+.details {
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #eff5fad1;
+}
+
+.readmore {
+  background: transparent;
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #f5f8fb;
+  border: 1px solid rgb(208, 215, 251, 17%);
+}
+
+.small {
+  background-color: #1d1c28;
+  width: 784px;
+  height: 434px;
+}
+
+img {
+  height: 174px;
+  width: 736px;
+}
+
+.info {
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #eff5fad1;
+}
+
+h4 {
+  font-family: "bakbak one", Aral, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #f5f8fb;
+}
+
+.details {
+  text-align: center;
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #eff5fad1;
+}
+
+.center-readmore {
+  text-align: center;
+}
+
+.about p {
+  font-family: "poppins", Aral, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #eff5fad1;
+}
+
+.about-cards {
+  background-image: url("Img\Catalog\01.jpg");
+  background-color: #1d1c28;
+  height: 232px;
+  width: 464px;
+}
+
+h4 {
+  font-family: "bakbak one", Aral, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #f5f8fb;
+}
+
+.team-card {
+  background-color: #1d1c28;
+  height: 316px;
+  width: 293px;
+}
+
+.team-card img {
+  height: 120px;
+  width: 120px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+
+.big-faq-card {
+  background-color: #1d1c28;
+  height: 176px;
+  width: 960px;
+}
+
+.faq-card {
+  background-color: #1d1c28;
+  height: 80px;
+  width: 960px;
+}
